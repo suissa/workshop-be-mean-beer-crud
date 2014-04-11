@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Eisenbahn Lust Prestige",
+    "description": "A Eisenbahn Lust Prestige também é fabricada pelo método champenoise. Depois da fermentação pelo método convencional, a cerveja segue para uma vinícola, onde passa por uma segunda fermentação dentro da garrafa. Logo após, a Eisenbahn Lust Prestige entra na etapa chamada cuvèe, que no seu caso dura um ano. Com isso, apresenta paladar mais seco e aromas amanteigado, de brioche e tabaco.",
+    "alcohol": 11.5,
+    "style": "Bière de Champagne / Bière Brut",
+    "brewery": "Cervejaria Sudbrack",
+    "category": "Especial",
+    "country": "Brasil"
+  }, {
+    "name": "Bodebrown / Stone Cacau IPA",
+    "description": "É uma cerveja que não foi feita para agradar muitas pessoas, apenas aqueles que sabem reconhecer o valor e o prazer de degustar uma cerveja com aromas e sabores fortes. Essa Cerveja possui aromas que lembram frutas cítricas provenientes das adições de lúpulos cítricos norte-americanos combinado com os aromas que remetem ao chocolate provenientes das adições de cacau em formato \"nibs\" durante a fervura e maturação. No sabor encontramos um balanço entre o maltado com caramelo, além do médio amargor presente através dos lúpulos.",
+    "alcohol": 6.1,
+    "style": "India Pale Ale (IPA)",
+    "brewery": "Cervejaria Bodebrown",
+    "category": "Especial",
+    "country": "Brasil"
+  }, {
+    "name": "Wäls Brut",
+    "description": "Cerveja do estilo Biére Brut. Elaborada através do tradicional método champenoise. Complexa e delicada, é produzida com leveduras de champagne. Coloração dourada e translúcida, aromas que remetem ao vinho branco e notas cítricas. Perlage fino e duradouro. Sofisticada e sedutora, passa nove meses em maturação na nossa cave com temperatura e umidade controladas. Refermentada na garrafa com 11% de alcool.",
+    "alcohol": 11,
+    "style": "Bière de Champagne / Bière Brut",
+    "brewery": "Cervejaria Wäls",
+    "category": "Especial",
+    "country": "Brasil"
+  }, {
+    "name": "Biertruppe Vintage Nº 1",
+    "description": "Uma escolha especial de maltes e lúpulos, fermentados por um blend de leveduras inglesas capaz de atingir altos níveis de álcool, proporcionando não só sua força, mas também notas frutadas e condimentadas. Essa é a base da Biertruppe Vintage Nº1, uma barley wine feita como antigamente. Além disso, uma longa maturação em barris de carvalho, em que antes repousaram vinhos tintos e brandy, vai lhe conferir notas de madeira, leve sensação de taninos e corpo na medida certa. Assim nasceu uma das cervejas mais ousadas já produzidas no Brasil. Queijos azuis e carnes (de cordeiro e de caça) harmonizam bem com essa cerveja. Um brinde!",
+    "alcohol": 9,
+    "style": "Barley Wine",
+    "brewery": "Cervejaria Bamberg",
+    "category": "Especial",
+    "country": "Brasil"
+  }, {
+    "name": "Conceição",
+    "description": "A primeira cerveja produzida pela CONFECE (Confraria Feminina da Cerveja), de Belo Horizonte (MG).",
+    "alcohol": 11,
+    "style": "Belgian Dark Strong Ale",
+    "brewery": "Confece",
+    "category": "Especial",
+    "country": "Brasil"
+  }, {
+    "name": "DaDo Bier Double Chocolate Stout",
+    "description": "A nova Dado Bier Double Chocolate Stout é uma autêntica Imperial Stout. Quase três anos foram consumidos no desenvolvendo dessa iguaria. Junto com o Carlos Bolzan, nosso mestre cervejeiro, trabalharam nesse projeto os \"home brewers\" cariocas Ricardo Rosa e Mauro Nogueira. A seleção das matérias primas é verdadeiro exagero. Mandamos baixar o que de melhor há no mundo, e para o toque final, coroamos a cerveja com o melhor chocolate Kopenhagen 70% cacao. O sabor é super intenso e complexo. O teor alcoólico também é bastante elevado (10,5%vol.).É inovadora, sofisticada e limitada, pois só fizemos 100 desta preciosas garrafas.",
+    "alcohol": 10.5,
+    "style": "Russian Imperial Stout",
+    "brewery": "Dado Bier",
+    "category": "Especial",
+    "country": "Brasil"
+  }, {
+    "name": "Colorado Vintage Black Rapadura",
+    "description": "Tipicamente inglês, o estilo Imperial Stout tem normalmente generoso teor alcoólico, e como deve ser a Black Rapadura da Colorado terá 10,5% de álcool. O produto foi elaborado com rapadura escura e os melhores maltes ingleses selecionados para fazer com que essa cerveja evolua em sabor por até dois anos, se guardada em lugar escuro e fresco. Inspirada na Fullers Vintage, uma cerveja inglesa de receita também variante e de tiragem limitada, a Black Rapadura vem agregar ainda mais valor ao portifolio tipicamente brasileiro da Cervejaria Colorado, que já conta com a Colorado Appia (Weiss com Mel), Colorado Cauim (Pilsen com Mandioca), Colorado Demoiselle (Porter com Café) e Colorado Índica (India Pale Ale com Rapadura). A diferenciação entre os dois produtos Colorado que levam Rapadura em sua formulação, além do estilo adotado, está também na concentração de lúpulo, 40 de IBU (unidades internacionais de amargor) da Indica contra 60 da Black Rapadura.",
+    "alcohol": 10.5,
+    "style": "Russian Imperial Stout",
+    "brewery": "Cervejaria Colorado",
+    "category": "Especial",
+    "country": "Brasil"
+  }, {
+    "name": "Revolution 32",
+    "description": "Homenagem dos Lamas aos bravos revolucionários de São Paulo, a Lamas Revolution 32 é forte american stout com coloração preta , creme denso. Amargor acentuado (25,6 IBU). Aroma de caramelo e um sabor de chocolate. Notas conseguidas devida a torrefação de maltes feito de forma artesanal pela Lamas Bier. Muito equilibrada e de personalidade forte.",
+    "alcohol": 7.1,
+    "style": "American Stout",
+    "brewery": "Lamar Bier",
+    "category": "Especial",
+    "country": "Brasil"
+  }, {
+    "name": "Invicta Imperial Stout",
+    "description": "A Invicta Imperial Stout é uma cerveja aveludada. Seus aromas de café e chocolate são encorpados com final amargo de notas tostadas. Harmoniza com sobremesa de sabores marcantes, aves, carnes de caça ou com queijos duros.",
+    "alcohol": 9,
+    "style": "Russian Imperial Stout",
+    "brewery": "Cervejaria Invicta",
+    "category": "Especial",
+    "country": "Brasil"
+  }, {
+    "name": "Jambreiro Cerevisiae Lundii",
+    "description": "Produzida e engarrafada pela Companhia Cervejaria Jambreiro, Nova Lima/MG, a partir de ingredientes importados, sem utilização de conservantes ou outros aditivos químicos.",
+    "alcohol": 10,
+    "style": "Other Smoked Beer",
+    "brewery": "Companhia Cervejaria Jambreiro",
+    "category": "Especial",
+    "country": "Brasil"
+  }
+]

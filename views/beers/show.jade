@@ -1,0 +1,21 @@
+extends ../layouts/layout
+
+block content
+  h1= beer.name
+
+  ul
+    li <strong>Name:</strong> #{beer.name}
+    li <strong>Description:</strong> #{beer.description}
+    li <strong>Alcohol:</strong> #{beer.alcohol}
+    li <strong>Style:</strong> #{beer.style}
+    li <strong>Brewery:</strong> #{beer.brewery}
+    li <strong>Category:</strong> #{beer.category}
+    li <strong>Country:</strong> #{beer.country}
+
+  ul.links
+    li
+      a(href="/beers/#{beer.id}/edit/") Editar
+    li
+      a(href="/beers/#{beer.id}/delete") Deletar
+
+  a(href="/beers") Voltar

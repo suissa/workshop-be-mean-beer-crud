@@ -1,0 +1,31 @@
+extends ../layouts/layout
+
+block content
+  h1= "Editing " + beer.name
+  form(method="post" action="http://localhost:3000/beers/#{beer.id}/edit")
+    div
+      label Name:
+      input(type="text" name="name" value="#{beer.name}")
+    div
+      label Description:
+      input(type="text" name="description" value="#{beer.description}")
+    div
+      label Alcohol:
+      input(type="number" name="alcohol" value="#{beer.alcohol}")
+    div
+      label Style:
+      input(type="text" name="style" value="#{beer.style}")
+    div
+      label Brewery:
+      input(type="text" name="brewery" value="#{beer.brewery}")
+    div
+      label Category:
+      input(type="text" name="category" value="#{beer.category}")
+    div
+      label Country:
+      input(type="text" name="country" value="#{beer.country}")
+    div
+      input(type="submit" value="Update")
+
+  br
+  a(href="/beers/#{beer.id}") Cancel

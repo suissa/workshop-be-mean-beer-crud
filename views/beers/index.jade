@@ -1,0 +1,11 @@
+extends ../layouts/layout
+
+block content
+  h1= title
+
+  ul
+    for beer in beers
+      li
+        a(href="/beers/#{beer.id}") #{beer.name}
+
+  a(href="/beers/new") Add new

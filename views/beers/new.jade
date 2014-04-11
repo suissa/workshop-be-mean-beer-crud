@@ -1,0 +1,31 @@
+extends ../layouts/layout
+
+block content
+  h1= "Creating Beer"
+  form(method="post" action="http://localhost:3000/beers/new")
+    div
+      label Name:
+      input(type="text" name="name")
+    div
+      label Description:
+      input(type="text" name="description")
+    div
+      label Alcohol:
+      input(type="number" name="alcohol")
+    div
+      label Style:
+      input(type="text" name="style")
+    div
+      label Brewery:
+      input(type="text" name="brewery")
+    div
+      label Category:
+      input(type="text" name="category")
+    div
+      label Country:
+      input(type="text" name="country")
+    div
+      input(type="submit" value="Add new")
+
+  br
+  a(href="/beers") Cancel
