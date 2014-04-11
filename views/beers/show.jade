@@ -16,6 +16,8 @@ block content
     li
       a(href="/beers/#{beer.id}/edit/") Editar
     li
-      a(href="/beers/#{beer.id}/delete") Deletar
+      form(method="post" action="/beers/#{beer.id}")
+        input(type="hidden" name="_method" value="delete")
+        button(type="submit") Deletar
 
   a(href="/beers") Voltar
