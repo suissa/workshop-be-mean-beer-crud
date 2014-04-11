@@ -19,6 +19,9 @@ var express = require('express'),
 
     app = express();
 
+
+var methodOverride = require('method-override');   
+
 // ----------------------------------------------------------------------------
 //  Views Engine
 // ----------------------------------------------------------------------------
@@ -34,6 +37,7 @@ app.use(favicon());
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
+app.use(methodOverride());                        
 app.use(cookieParser());
 app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));

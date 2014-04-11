@@ -8,7 +8,7 @@ router
   .param('id', beers.getId)
   .get('/', beers.index)
   .get('/new', beers.new)
-  .post('/new', beers.create)
+  .post('/', beers.create)
   .get('/:id', beers.show)
   .get('/:id/edit', beers.edit)
   .post('/:id/edit', beers.update)

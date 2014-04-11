@@ -2,7 +2,7 @@ extends ../layouts/layout
 
 block content
   h1= "Editing " + beer.name
-  form(method="post" action="http://localhost:3000/beers/#{beer.id}/edit")
+  form(method="post" action="/beers/#{beer.id}/edit")
     div
       label Name:
       input(type="text" name="name" value="#{beer.name}")
