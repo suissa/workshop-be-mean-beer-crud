@@ -10,6 +10,7 @@ var express = require('express'),
 
     cookieParser = require('cookie-parser'),
     bodyParser = require('body-parser'),
+    methodOverride = require('method-override'),
     routes = require('./routes/index'),
     beers = require('./routes/beers'),
 
@@ -17,10 +18,9 @@ var express = require('express'),
       beers: require('./routes/api/beers')
     },
 
-    app = express();
-
-
-var methodOverride = require('method-override');   
+    app = express();   
+// mongoose.connect('mongodb://localhost/workshop-be-mean');
+var db = require('./db');
 
 // ----------------------------------------------------------------------------
 //  Views Engine
@@ -70,8 +70,8 @@ if (app.get('env') === 'development') {
     });
   });
 
+// mostrar o html bunitinho
   app.locals.pretty = true;
-  mongoose.connect('mongodb://localhost/workshop-floripa');
 }
 
 // production error handler
