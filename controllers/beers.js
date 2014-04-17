@@ -9,12 +9,12 @@ exports.getId = function(req, res, next, id) {
 };
 
 exports.index = function(req, res, next) {
-  console.log(req);
+  // console.log(req);
 
   Beer.find(function(err, beers) {
     if (err) return next(err);
     res.render('beers/index', {
-      title: 'Beers',
+      title: 'Workshop Be MEAN',
       beers: beers
     });
   });

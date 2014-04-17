@@ -70,6 +70,7 @@ if (app.get('env') === 'development') {
     });
   });
 
+  app.locals.pretty = true;
   mongoose.connect('mongodb://localhost/workshop-floripa');
 }
 

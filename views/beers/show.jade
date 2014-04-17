@@ -4,13 +4,34 @@ block content
   h1= beer.name
 
   ul
-    li <strong>Name:</strong> #{beer.name}
-    li <strong>Description:</strong> #{beer.description}
-    li <strong>Alcohol:</strong> #{beer.alcohol}
-    li <strong>Style:</strong> #{beer.style}
-    li <strong>Brewery:</strong> #{beer.brewery}
-    li <strong>Category:</strong> #{beer.category}
-    li <strong>Country:</strong> #{beer.country}
+    li 
+      strong
+        | Name: 
+      | #{beer.name}
+    li
+      strong
+        | Description: 
+      | #{beer.description}
+    li 
+      strong
+        | Alcohol: 
+      | #{beer.alcohol}
+    li 
+      strong
+        | Style: 
+      | #{beer.style}
+    li 
+      strong
+        | Brewery: 
+      | #{beer.brewery}
+    li 
+      strong
+        | Category: 
+      | #{beer.category}
+    li 
+      strong
+        | Country: 
+      | #{beer.country}
 
   ul.links
     li
